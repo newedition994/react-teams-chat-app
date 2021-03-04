@@ -7,9 +7,9 @@ const App = () => {
   return (
     <ChatEngine 
         height = "100vh"
-        projectID = " "
-        userName = " "
-        userSecret = " "
+        projectID = {process.env.PJ_ID_KEY}
+        userName = "reactmastery"
+        userSecret = {process.env.USER_SECRET}
 
     />
   )
